@@ -1,0 +1,68 @@
+@media screen and (max-width: 2000px) {
+    body {
+        background-image: url('./assets/home/background-home-desktop.jpg');
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    body {
+        background-image: url('./assets/home/background-home-tablet.jpg');
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: url('./assets/home/background-home-mobile.jpg');
+    }
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    color:rgb(219, 230, 240);
+    font-family: 'Raleway', sans-serif;;
+}
+
+.navbar{
+    height: 4vw;
+    margin-top: 60px;
+    /* visibility: blur; */
+    display:flex;
+    padding:10px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+.navbar img{
+    width:40px;
+    height:40px;
+}
+.navbar .home{
+    padding-left:700px;
+}
+.navbar > div {
+    margin-right: 50px; 
+    padding:20px;
+}
+.navbar > div:last-child {
+    margin-right: 0;
+}
+
+.container{
+    margin:250px;
+    margin-left:150px; 
+}
+.left{
+    width:50%;
+}
+.first{
+    font-size: 35px;
+}
+.space{
+    font-size: 70px;
+    padding:20px;
+}
+.brief{
+    padding-top:30px;
+}
+
